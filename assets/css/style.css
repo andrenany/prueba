@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+}
+.inicio{
+    margin-bottom: 200px;
+}
+.fecha{
+    text-align: center;
+    margin-top: 5px;
+    font-weight:bold;
+}
+.line {
+    border-top: 1px solid #A79FA0;
+    flex: 1; 
+}
+.linea{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.titulo{
+    font-size: 4em;
+    text-align: center; 
+    height: auto; 
+
+}
+.beig{
+    background-color: #8B1923;
+}
+.textbeig{
+    color: #A79FA0;
+}
+
+.logo {
+    width: 20%; 
+}
+
+#searchForm {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.list-group{
+    background-color: #A79FA0;
+    float: left;
+    margin: 10px;
+    margin-right: 50px;
+}
+.carousel-section{
+    float: right;
+    width: 90%; /* Define el ancho del carrusel */
+    max-width: 900px; /* Establece un ancho máximo para el carrusel */
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.carousel-item img {
+    width: 500px; 
+    height: 500px;
+    object-fit: cover; 
+}
+.noticia{
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.card{
+    border: none;
+    justify-content: center;
+    height: 400px;
+}
+
+
+.contactanos{
+   padding: 50px;
+   padding-left: 200px;
+   padding-right: 200px;
+    
+   
+   
+}
+________________________________
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%; /* Ajusta la altura según sea necesario */
+  }
+  
+  .vertical-right {
+    max-height: 100%; /* Ajusta la altura máxima según sea necesario */
+  }
+  .main-news {
+    display: flex;
+    padding: 50px;
+  }
+  
+  .news-content {
+    flex: 1; 
+    text-align: justify;
+    justify-content: center;
+
+  }
+h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+  .news-image {
+    margin-left: 20px; /* Margen a la izquierda para separar la imagen del contenido */
+  }
+
